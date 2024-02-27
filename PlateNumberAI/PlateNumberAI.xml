@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<settings>
+  <car_path_model>models/yolov8l.pt</car_path_model>
+  <plate_path_model>models/best8n.pt</plate_path_model>
+  <easy_ocr_path_model>easyOcrModel/</easy_ocr_path_model>
+  <name_easy_ocr>custom_example</name_easy_ocr>
+  <path_save_plate>plate.bmp</path_save_plate>
+  <path_save_number>number.txt</path_save_number>
+  <treshold2zero>True</treshold2zero>
+  <target_score>0.99</target_score>
+  <car_detected>False</car_detected>
+  <allowed_characters>0123456789АВЕКМНОРСТУХ </allowed_characters>
+  <server_address>127.0.0.1</server_address>
+  <server_port>12345</server_port>
+</settings>

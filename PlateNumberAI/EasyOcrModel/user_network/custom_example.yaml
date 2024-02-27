@@ -1,0 +1,13 @@
+lang_list:
+        - 'ru'
+character_list: 0123456789!#$%&'()*+,-./:;<=>?@[\\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+network_params:
+        input_channel: 1
+        output_channel: 256
+        hidden_size: 256
+imgH: 64
+imgW: 600
+decode: 'greedy'
+new_prediction: False
+freeze_FeatureFxtraction: False
+freeze_SequenceModeling: False 
